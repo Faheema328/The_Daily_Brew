@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Daily Brew — Artisanal Coffee & Freshly Baked Treats. A premium specialty coffeehouse experience.">
+    <title>The Daily Brew — Premium Specialty Coffeehouse</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css?v=5">
+
+    <!-- Script -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Skip to Main Content Link for Keyboard Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ======================================================================
+         SITE HEADER & NAVIGATION
+         ====================================================================== -->
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <!-- Brand / Logo -->
+            <a href="#home" class="brand" aria-label="The Daily Brew — Return to Home">
+                <span class="brand-logo-frame">
+                    <img src="assets/images/06_alternate_logo.jpg" alt="The Daily Brew Logo" class="brand-logo" width="46" height="48">
+                </span>
+                <div class="brand-text">
+                    <span class="brand-name">The Daily Brew</span>
+                    <span class="brand-tagline">Specialty Coffeehouse</span>
+                </div>
+            </a>
+
+            <!-- Primary Navigation -->
+            <nav class="primary-nav" id="primaryNav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bestsellers" class="nav-link">Bestsellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Header Actions: Cart Button & Mobile Nav Toggle -->
+            <div class="header-actions">
+                <button type="button" class="cart-trigger-btn" id="cartTriggerBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="cartDrawer" aria-label="Shopping bag with 0 items">
+                    <span class="cart-emoji" aria-hidden="true">🛍️</span>
+                    <span class="cart-count-badge" id="cartCountBadge" aria-hidden="true">0</span>
+                </button>
+
+                <!-- Mobile Navigation Toggle -->
+                <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Backdrop Overlay -->
+    <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+    <!-- ======================================================================
+         MAIN CONTENT AREA
+         ====================================================================== -->
+    <main id="main-content" tabindex="-1">
+        <!-- ==================================================================
+             1. HERO SECTION (#home)
+             ================================================================== -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-eyebrow">The Coffee Atelier</span>
+                    <h1 class="hero-title">Your Everyday Coffee Destination.</h1>
+                    <p class="hero-description">From freshly brewed coffee to delicious bites, discover your favourite spot to relax, recharge and reconnect.</p>
+                    <div class="hero-actions">
+                        <a href="#menu" class="btn btn-accent hero-btn">Explore Our Menu</a>
+                        <a href="#bestsellers" class="btn btn-outline-dark hero-btn-secondary">View Bestsellers</a>
+                    </div>
+                    <div class="hero-features-strip" aria-label="Café highlights">
+                        <span class="hero-feature-pill">✦ Artisanal Specialty Brews</span>
+                        <span class="hero-feature-pill">✦ Fresh Daily Bakes</span>
+                        <span class="hero-feature-pill">✦ Welcoming Space</span>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <div class="hero-image-frame">
+                        <img src="assets/images/01_alternate_hero_banner.jpg" 
+                             alt="The Daily Brew — Artisanal coffee and warm café ambiance" 
+                             class="hero-image"
+                             width="1672" 
+                             height="545"
+                             loading="eager"
+                             fetchpriority="high">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             2. ABOUT US SECTION (#about)
+             ================================================================== -->
+        <section class="about-section section" id="about">
+            <div class="container">
+                <div class="about-card">
+                    <div class="section-header about-header">
+                        <span class="section-eyebrow">Our Philosophy</span>
+                        <h2 class="section-title">About Daily Brew</h2>
+                        <div class="editorial-divider" aria-hidden="true">
+                            <span class="divider-line"></span>
+                            <span class="divider-dot"></span>
+                            <span class="divider-line"></span>
+                        </div>
+                    </div>
+                    <div class="about-editorial-grid">
+                        <div class="about-main-panel">
+                            <div class="about-quote-mark" aria-hidden="true">“</div>
+                            <div class="about-body">
+                                <p class="about-text">At The Daily Brew, we believe every great day starts with a good cup of coffee. Enjoy freshly brewed beverages, delicious food and a welcoming atmosphere.</p>
+                            </div>
+                            <div class="about-signature">
+                                <span class="signature-title">The Coffee Atelier Philosophy</span>
+                                <span class="signature-subtitle">Handcrafted in Chennai</span>
+                            </div>
+                        </div>
+                        <div class="about-pillars-panel">
+                            <div class="about-pillar">
+                                <div class="pillar-bullet" aria-hidden="true">01</div>
+                                <div class="pillar-content">
+                                    <h3 class="pillar-title">Calibrated Roasts</h3>
+                                    <p class="pillar-desc">Carefully selected beans roasted to express rich dark chocolate notes, warm caramel sweetness, and full-bodied aromatics.</p>
+                                </div>
+                            </div>
+                            <div class="about-pillar">
+                                <div class="pillar-bullet" aria-hidden="true">02</div>
+                                <div class="pillar-content">
+                                    <h3 class="pillar-title">Artisanal Precision</h3>
+                                    <p class="pillar-desc">Each cup poured with measured extraction ratios, silky microfoam texturing, and deliberate mindfulness.</p>
+                                </div>
+                            </div>
+                            <div class="about-pillar">
+                                <div class="pillar-bullet" aria-hidden="true">03</div>
+                                <div class="pillar-content">
+                                    <h3 class="pillar-title">A Space to Pause</h3>
+                                    <p class="pillar-desc">A peaceful neighborhood sanctuary featuring warm timber finishes, soft acoustic lighting, and an unhurried vibe.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             3. BESTSELLERS SECTION (#bestsellers)
+             ================================================================== -->
+        <section class="bestsellers-section section" id="bestsellers">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Curated Atelier Highlights</span>
+                    <h2 class="section-title">Our Bestsellers</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">Handpicked signature favorites cherished by our daily coffeehouse guests.</p>
+                </div>
+                <div class="bestsellers-grid">
+                    <!-- Bestseller 1: Cappuccino -->
+                    <article class="bestseller-card">
+                        <div class="bestseller-badge-wrap">
+                            <span class="bestseller-badge">Bestseller No. 1 • Hot Specialty</span>
+                        </div>
+                        <div class="bestseller-image-wrap">
+                            <img src="assets/images/02_alternate_cappuccino.jpg" 
+                                 alt="Cappuccino Bestseller" 
+                                 class="bestseller-image bestseller-image-cappuccino"
+                                 width="309"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="bestseller-details">
+                            <h3 class="bestseller-title">Cappuccino</h3>
+                            <p class="bestseller-note">Velvety microfoam over a rich double shot of house-roasted espresso.</p>
+                            <div class="bestseller-footer">
+                                <span class="bestseller-price">₹150</span>
+                                <button type="button" class="btn btn-accent menu-customize-btn" data-product="cappuccino" aria-haspopup="dialog" aria-label="Customize Cappuccino">Customize & Order</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Bestseller 2: Cold Coffee -->
+                    <article class="bestseller-card">
+                        <div class="bestseller-badge-wrap">
+                            <span class="bestseller-badge">Bestseller No. 2 • Chilled Specialty</span>
+                        </div>
+                        <div class="bestseller-image-wrap">
+                            <img src="assets/images/03_alternate_iced_coffee.jpg" 
+                                 alt="Cold Coffee Bestseller" 
+                                 class="bestseller-image bestseller-image-cold-coffee"
+                                 width="306"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="bestseller-details">
+                            <h3 class="bestseller-title">Cold Coffee</h3>
+                            <p class="bestseller-note">Chilled full-bodied espresso shaken with velvety milk and caramel undertones.</p>
+                            <div class="bestseller-footer">
+                                <span class="bestseller-price">₹180</span>
+                                <button type="button" class="btn btn-accent menu-customize-btn" data-product="cold-coffee" aria-haspopup="dialog" aria-label="Customize Cold Coffee">Customize & Order</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             4. OUR MENU SECTION (#menu)
+             ================================================================== -->
+        <section class="menu-section section" id="menu">
+            <div class="container">
+                <div class="section-header menu-header">
+                    <span class="section-eyebrow">The Atelier Selection</span>
+                    <h2 class="section-title">Our Menu</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">Discover our artisanal brews, specialty iced drinks, and wholesome kitchen pairings.</p>
+                </div>
+                <div class="menu-grid">
+                    <!-- Item 1: Cappuccino -->
+                    <article class="menu-card">
+                        <div class="menu-card-image-wrap">
+                            <img src="assets/images/02_alternate_cappuccino.jpg" 
+                                 alt="Cappuccino" 
+                                 class="menu-card-image menu-image-cappuccino"
+                                 width="309"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header">
+                                <span class="menu-category-tag">Hot Specialty</span>
+                                <h3 class="menu-card-title">Cappuccino</h3>
+                            </div>
+                            <p class="menu-card-desc">Classic double espresso with textured silky milk and a delicate dusted cocoa finish.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">₹150</span>
+                                <button type="button" class="btn btn-outline-accent menu-customize-btn" data-product="cappuccino" aria-haspopup="dialog" aria-label="Customize Cappuccino">Customize</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Item 2: Cold Coffee -->
+                    <article class="menu-card">
+                        <div class="menu-card-image-wrap">
+                            <img src="assets/images/03_alternate_iced_coffee.jpg" 
+                                 alt="Cold Coffee" 
+                                 class="menu-card-image menu-image-cold-coffee"
+                                 width="306"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header">
+                                <span class="menu-category-tag">Iced Specialty</span>
+                                <h3 class="menu-card-title">Cold Coffee</h3>
+                            </div>
+                            <p class="menu-card-desc">Slow-chilled espresso shaken over ice with creamy milk and smooth sweetness.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">₹180</span>
+                                <button type="button" class="btn btn-outline-accent menu-customize-btn" data-product="cold-coffee" aria-haspopup="dialog" aria-label="Customize Cold Coffee">Customize</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Item 3: Classic Sandwich -->
+                    <article class="menu-card">
+                        <div class="menu-card-image-wrap">
+                            <img src="assets/images/04_alternate_sandwich.jpg" 
+                                 alt="Classic Sandwich" 
+                                 class="menu-card-image menu-image-sandwich"
+                                 width="336"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header">
+                                <span class="menu-category-tag">Savory Kitchen</span>
+                                <h3 class="menu-card-title">Classic Sandwich</h3>
+                            </div>
+                            <p class="menu-card-desc">Artisanal grilled bread layered with crisp garden vegetables and house spread.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">₹120</span>
+                                <button type="button" class="btn btn-outline-accent menu-customize-btn" data-product="classic-sandwich" aria-haspopup="dialog" aria-label="Customize Classic Sandwich">Customize</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Item 4: Chocolate Brownie -->
+                    <article class="menu-card">
+                        <div class="menu-card-image-wrap">
+                            <img src="assets/images/05_alternate_brownie.jpg" 
+                                 alt="Chocolate Brownie" 
+                                 class="menu-card-image menu-image-brownie"
+                                 width="308"
+                                 height="354"
+                                 loading="lazy">
+                        </div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header">
+                                <span class="menu-category-tag">Sweet Bakery</span>
+                                <h3 class="menu-card-title">Chocolate Brownie</h3>
+                            </div>
+                            <p class="menu-card-desc">Decadent Dutch-cocoa chocolate bake with a chewy fudge center and crisp crust.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">₹100</span>
+                                <button type="button" class="btn btn-outline-accent menu-customize-btn" data-product="chocolate-brownie" aria-haspopup="dialog" aria-label="Customize Chocolate Brownie">Customize</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             5. OUR EXPERIENCE SECTION (#experience)
+             ================================================================== -->
+        <section class="experience-section section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">The Atelier Atmosphere</span>
+                    <h2 class="section-title">The Coffeehouse Experience</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">More than a coffee stop — a serene sanctuary designed for mindful pauses and warm connections.</p>
+                </div>
+
+                <div class="experience-grid">
+                    <!-- Feature 1: Artisanal Craft -->
+                    <div class="experience-card">
+                        <div class="experience-icon-wrap" aria-hidden="true">
+                            <span class="experience-emoji">☕</span>
+                        </div>
+                        <span class="experience-pill">Craft Extraction</span>
+                        <h3 class="experience-title">Artisanal Brew Craft</h3>
+                        <p class="experience-desc">Every double shot calibrated with precise grind fineness, water temperature, and extraction timing to unlock rich cocoa and caramel notes.</p>
+                    </div>
+
+                    <!-- Feature 2: Serene Space -->
+                    <div class="experience-card">
+                        <div class="experience-icon-wrap" aria-hidden="true">
+                            <span class="experience-emoji">🛋️</span>
+                        </div>
+                        <span class="experience-pill">Acoustic Comfort</span>
+                        <h3 class="experience-title">A Space for Mindful Pauses</h3>
+                        <p class="experience-desc">Warm timber tables, natural lighting, and gentle acoustic soundscapes create an unhurried haven to read, work, or share conversations.</p>
+                    </div>
+
+                    <!-- Feature 3: Fresh Daily Kitchen -->
+                    <div class="experience-card">
+                        <div class="experience-icon-wrap" aria-hidden="true">
+                            <span class="experience-emoji">🥪</span>
+                        </div>
+                        <span class="experience-pill">Daily Bakes</span>
+                        <h3 class="experience-title">Fresh Daily Kitchen</h3>
+                        <p class="experience-desc">From freshly toasted garden sandwiches to fudgy dark cocoa brownies, our kitchen prepares wholesome accompaniments each morning.</p>
+                    </div>
+                </div>
+
+                <!-- Atelier Highlight Stats -->
+                <div class="experience-stats-strip">
+                    <div class="experience-stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Signature Offerings</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="experience-stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Fresh Daily Bakes</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="experience-stat">
+                        <span class="stat-number">Chennai</span>
+                        <span class="stat-label">Local Sanctuary</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="experience-stat">
+                        <span class="stat-number">Dine-In</span>
+                        <span class="stat-label">& Counter Pickup</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             6. SPECIAL OFFERS SECTION (#offers)
+             ================================================================== -->
+        <section class="offers-section section" id="offers">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Curated Combinations</span>
+                    <h2 class="section-title">Special Offers</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">Sample demonstration pairings highlighting our handcrafted beverages and kitchen offerings *(Demonstration Offers)*.</p>
+                </div>
+
+                <div class="offers-grid">
+                    <!-- Offer 1 -->
+                    <div class="offer-card">
+                        <div class="offer-header">
+                            <div class="offer-header-meta">
+                                <span class="offer-badge">Morning Special • Save 15%</span>
+                                <span class="offer-demo-tag">Sample Demo Offer</span>
+                            </div>
+                            <div class="offer-thumbnails" aria-label="Pairing: Cappuccino and Classic Sandwich">
+                                <div class="offer-product-thumb" title="Cappuccino">
+                                    <img src="assets/images/02_alternate_cappuccino.jpg" alt="Cappuccino" class="offer-thumb-img offer-thumb-cappuccino" width="44" height="44" loading="lazy">
+                                </div>
+                                <div class="offer-product-thumb" title="Classic Sandwich">
+                                    <img src="assets/images/04_alternate_sandwich.jpg" alt="Classic Sandwich" class="offer-thumb-img offer-thumb-sandwich" width="44" height="44" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offer-body">
+                            <h3 class="offer-title">Morning Atelier Pairing</h3>
+                            <p class="offer-combo-items">Cappuccino & Classic Sandwich</p>
+                            <p class="offer-desc">Pair our velvety double-shot Cappuccino with a freshly toasted Classic Sandwich for a nourishing start to your morning.</p>
+                            <div class="offer-pricing">
+                                <span class="offer-deal-price">₹230</span>
+                                <span class="offer-orig-price">Regular ₹270</span>
+                            </div>
+                        </div>
+                        <div class="offer-footer">
+                            <a href="#menu" class="btn btn-outline-accent offer-btn">View Menu Pairings</a>
+                        </div>
+                    </div>
+
+                    <!-- Offer 2 -->
+                    <div class="offer-card">
+                        <div class="offer-header">
+                            <div class="offer-header-meta">
+                                <span class="offer-badge">Afternoon Delight • Sweet Duo</span>
+                                <span class="offer-demo-tag">Sample Demo Offer</span>
+                            </div>
+                            <div class="offer-thumbnails" aria-label="Pairing: Cold Coffee and Chocolate Brownie">
+                                <div class="offer-product-thumb" title="Cold Coffee">
+                                    <img src="assets/images/03_alternate_iced_coffee.jpg" alt="Cold Coffee" class="offer-thumb-img offer-thumb-cold-coffee" width="44" height="44" loading="lazy">
+                                </div>
+                                <div class="offer-product-thumb" title="Chocolate Brownie">
+                                    <img src="assets/images/05_alternate_brownie.jpg" alt="Chocolate Brownie" class="offer-thumb-img offer-thumb-brownie" width="44" height="44" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offer-body">
+                            <h3 class="offer-title">Afternoon Sweet Retreat</h3>
+                            <p class="offer-combo-items">Cold Coffee & Chocolate Brownie</p>
+                            <p class="offer-desc">Our signature chilled Cold Coffee served alongside a warm, fudgy Chocolate Brownie for the ultimate midday reward.</p>
+                            <div class="offer-pricing">
+                                <span class="offer-deal-price">₹240</span>
+                                <span class="offer-orig-price">Regular ₹280</span>
+                            </div>
+                        </div>
+                        <div class="offer-footer">
+                            <a href="#menu" class="btn btn-outline-accent offer-btn">View Menu Pairings</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offers-disclaimer-card">
+                    <p class="offers-disclaimer-text">✦ <strong>Demonstration Notice:</strong> Promotional combinations are illustrative demonstration pairings to showcase our menu pairings. Real pricing is calculated via the customizer.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             7. MADE FOR EVERY MOMENT SECTION (#moments)
+             ================================================================== -->
+        <section class="moments-section section" id="moments">
+            <div class="container">
+                <div class="section-header moments-header">
+                    <span class="moments-eyebrow">The Atelier Experience</span>
+                    <h2 class="section-title">Made for Every Moment</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle moments-subtitle">Thoughtfully crafted brews and bites to accompany every chapter of your day.</p>
+                </div>
+
+                <div class="moments-grid">
+                    <!-- Moment 1: Morning Start -->
+                    <div class="moment-card moment-card-morning">
+                        <div class="moment-icon-circle" aria-hidden="true">
+                            <span class="moment-emoji">🌅</span>
+                        </div>
+                        <span class="moment-badge">Morning Ritual</span>
+                        <h3 class="moment-title">Morning Start</h3>
+                        <p class="moment-desc">Begin your day with a comforting cup of coffee.</p>
+                    </div>
+
+                    <!-- Moment 2: Afternoon Recharge -->
+                    <div class="moment-card moment-card-afternoon">
+                        <div class="moment-icon-circle" aria-hidden="true">
+                            <span class="moment-emoji">🌤️</span>
+                        </div>
+                        <span class="moment-badge">Midday Pause</span>
+                        <h3 class="moment-title">Afternoon Recharge</h3>
+                        <p class="moment-desc">Take a refreshing break from your busy day.</p>
+                    </div>
+
+                    <!-- Moment 3: Evening Unwind -->
+                    <div class="moment-card moment-card-evening">
+                        <div class="moment-icon-circle" aria-hidden="true">
+                            <span class="moment-emoji">🌙</span>
+                        </div>
+                        <span class="moment-badge">Evening Solace</span>
+                        <h3 class="moment-title">Evening Unwind</h3>
+                        <p class="moment-desc">Slow down and enjoy a little moment for yourself.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             9. TESTIMONIALS SECTION (#testimonials)
+             ================================================================== -->
+        <section class="testimonials-section section" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Guest Impressions</span>
+                    <h2 class="section-title">Patron Reflections</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">Thoughts and reflections from visitors who make The Daily Brew part of their daily routine *(Demonstration Content)*.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-rating" aria-label="5 stars rating">
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                            </div>
+                            <div class="testimonial-product-thumb" aria-hidden="true" title="Cappuccino">
+                                <img src="assets/images/02_alternate_cappuccino.jpg" alt="Cappuccino" class="testimonial-thumb-img testimonial-thumb-cappuccino" width="48" height="48" loading="lazy">
+                            </div>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            “The Cappuccino here is unmatched. Silky microfoam, deeply satisfying espresso roast, and an environment that genuinely lets you pause and recharge.”
+                        </blockquote>
+                        <div class="testimonial-author-meta">
+                            <span class="testimonial-author-name">Coffee Enthusiast Sample</span>
+                            <span class="testimonial-author-tag">Morning Guest Reflection • Demo Sample</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-rating" aria-label="5 stars rating">
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                            </div>
+                            <div class="testimonial-product-thumb" aria-hidden="true" title="Cold Coffee">
+                                <img src="assets/images/03_alternate_iced_coffee.jpg" alt="Cold Coffee" class="testimonial-thumb-img testimonial-thumb-cold-coffee" width="48" height="48" loading="lazy">
+                            </div>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            “Their Cold Coffee on a warm Chennai afternoon is simply perfection. Paired with a warm Chocolate Brownie, it is the best 20 minutes of my day.”
+                        </blockquote>
+                        <div class="testimonial-author-meta">
+                            <span class="testimonial-author-name">Afternoon Guest Sample</span>
+                            <span class="testimonial-author-tag">Regular Visitor Reflection • Demo Sample</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-rating" aria-label="5 stars rating">
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                                <span class="testimonial-star">★</span>
+                            </div>
+                            <div class="testimonial-product-thumb" aria-hidden="true" title="Classic Sandwich">
+                                <img src="assets/images/04_alternate_sandwich.jpg" alt="Classic Sandwich" class="testimonial-thumb-img testimonial-thumb-sandwich" width="48" height="48" loading="lazy">
+                            </div>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            “A neighborhood gem. Friendly smiles, prompt service, clean Scandinavian-warm design, and consistently delicious sandwiches. Highly recommended.”
+                        </blockquote>
+                        <div class="testimonial-author-meta">
+                            <span class="testimonial-author-name">Weekend Explorer Sample</span>
+                            <span class="testimonial-author-tag">Community Reflection • Demo Sample</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-disclaimer">
+                    <p class="testimonials-disclaimer-text">✦ <em>Sample reflections provided as illustrative demonstration content. Visit us in Chennai to craft your own moment.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================================
+             10. CONTACT SECTION (#contact)
+             ================================================================== -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="section-header contact-header">
+                    <span class="section-eyebrow">Connect & Visit</span>
+                    <h2 class="section-title">Contact</h2>
+                    <div class="editorial-divider" aria-hidden="true">
+                        <span class="divider-line"></span>
+                        <span class="divider-dot"></span>
+                        <span class="divider-line"></span>
+                    </div>
+                    <p class="section-subtitle">We warmly welcome your visit, questions, and coffee inquiries.</p>
+                </div>
+
+                <div class="contact-layout-grid">
+                    <!-- Column 1: Contact Cards -->
+                    <div class="contact-grid">
+                        <!-- Email Card -->
+                        <div class="contact-card">
+                            <div class="contact-icon-wrap" aria-hidden="true">
+                                <span class="contact-emoji">📧</span>
+                            </div>
+                            <h3 class="contact-card-title"><span class="contact-label">Email</span><span class="contact-colon" aria-hidden="true">:</span></h3>
+                            <a href="mailto:hello@thedailybrew.example" class="contact-link">hello@thedailybrew.example</a>
+                        </div>
+
+                        <!-- Phone Card -->
+                        <div class="contact-card">
+                            <div class="contact-icon-wrap" aria-hidden="true">
+                                <span class="contact-emoji">📞</span>
+                            </div>
+                            <h3 class="contact-card-title"><span class="contact-label">Phone</span><span class="contact-colon" aria-hidden="true">:</span></h3>
+                            <a href="tel:+919876543210" class="contact-link">+91 98765 43210</a>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="contact-card">
+                            <div class="contact-icon-wrap" aria-hidden="true">
+                                <span class="contact-emoji">📍</span>
+                            </div>
+                            <h3 class="contact-card-title"><span class="contact-label">Location</span><span class="contact-colon" aria-hidden="true">:</span></h3>
+                            <span class="contact-value">Chennai</span>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Hours & Welcome Information -->
+                    <div class="contact-hours-card">
+                        <div class="hours-header">
+                            <span class="hours-eyebrow">Welcome to The Atelier</span>
+                            <h3 class="hours-title">Café Hours & Guidance</h3>
+                        </div>
+                        <ul class="hours-list">
+                            <li class="hours-row">
+                                <span class="hours-day">Monday – Friday</span>
+                                <span class="hours-time">7:30 AM – 10:00 PM</span>
+                            </li>
+                            <li class="hours-row">
+                                <span class="hours-day">Saturday – Sunday</span>
+                                <span class="hours-time">8:00 AM – 10:30 PM</span>
+                            </li>
+                        </ul>
+                        <div class="hours-notice">
+                            <p class="hours-desc">Walk-ins are always warmly welcomed. Both indoor dine-in seating and fast counter pickup are available throughout the day.</p>
+                            <a href="#menu" class="btn btn-accent btn-sm hours-cta">Browse Full Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================================================================
+         SITE FOOTER
+         ====================================================================== -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo-frame">
+                    <img src="assets/images/06_alternate_logo.jpg" alt="The Daily Brew Logo" class="footer-logo" width="44" height="46" loading="lazy">
+                </div>
+                <span class="footer-brand-name">The Daily Brew</span>
+            </div>
+            <ul class="footer-nav" aria-label="Footer navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#bestsellers">Bestsellers</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="footer-copyright">© 2026 The Daily Brew. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ======================================================================
+         PRODUCT CUSTOMIZATION MODAL (Phase 2)
+         ====================================================================== -->
+    <div class="modal-backdrop" id="customizerBackdrop" aria-hidden="true"></div>
+    <div class="customizer-modal" id="customizerModal" role="dialog" aria-modal="true" aria-labelledby="customizerTitle" aria-hidden="true" tabindex="-1">
+        <div class="customizer-dialog">
+            <div class="customizer-content">
+                <!-- Modal Header -->
+                <div class="customizer-header">
+                    <div class="customizer-header-product">
+                        <div class="customizer-product-thumb">
+                            <img id="customizerImage" src="assets/images/02_alternate_cappuccino.jpg" alt="Selected Product Thumbnail" width="76" height="76">
+                        </div>
+                        <div class="customizer-product-info">
+                            <span class="customizer-eyebrow">The Coffee Atelier</span>
+                            <h2 class="customizer-title" id="customizerTitle">Customize Cappuccino</h2>
+                            <div class="customizer-base-row">
+                                <span class="customizer-base-label">Original Base Price:</span>
+                                <span class="customizer-base-badge" id="customizerBasePrice">₹150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="customizer-close-btn" id="customizerCloseBtn" aria-label="Close customization modal">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Modal Options Body -->
+                <form class="customizer-form" id="customizerForm">
+                    <div class="customizer-options-list" id="customizerOptions">
+                        <!-- Dynamic options generated via JavaScript -->
+                    </div>
+
+                    <!-- Demo Pricing Disclaimer Notice -->
+                    <div class="customizer-disclaimer">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        </svg>
+                        <p>Note: Customization add-on charges shown are illustrative demonstration values.</p>
+                    </div>
+                </form>
+
+                <!-- Modal Footer -->
+                <div class="customizer-footer">
+                    <div class="customizer-price-summary">
+                        <span class="customizer-total-label">Customized Total</span>
+                        <div class="customizer-total-price-wrap">
+                            <span class="customizer-total-price" id="customizerLivePrice">₹150</span>
+                            <span class="customizer-diff-badge" id="customizerDiffBadge" aria-live="polite">+₹0</span>
+                        </div>
+                    </div>
+                    <div class="customizer-actions">
+                        <button type="button" class="btn btn-outline customizer-cancel-btn" id="customizerCancelBtn">Cancel</button>
+                        <button type="button" class="btn btn-outline-accent customizer-continue-btn" id="customizerContinueBtn">Add to Cart</button>
+                        <button type="button" class="btn btn-accent customizer-buynow-btn" id="customizerBuyNowBtn">Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Toast Notification for Continue Button -->
+                <div class="customizer-toast" id="customizerToast" role="status" aria-live="polite" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span id="customizerToastMsg">Customization saved for demo!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         SHOPPING CART DRAWER (Phase 3)
+         ====================================================================== -->
+    <!-- Cart Backdrop Overlay -->
+    <div class="cart-backdrop" id="cartBackdrop" aria-hidden="true"></div>
+
+    <!-- Cart Slide-out Drawer Panel -->
+    <div class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartDrawerTitle" aria-hidden="true" tabindex="-1">
+        <div class="cart-drawer-content">
+            <!-- Drawer Header -->
+            <div class="cart-drawer-header">
+                <div class="cart-header-title-wrap">
+                    <span class="cart-eyebrow">The Coffee Atelier</span>
+                    <h2 class="cart-drawer-title" id="cartDrawerTitle">Your Bag <span class="cart-header-count" id="cartHeaderCount">(0)</span></h2>
+                </div>
+                <button type="button" class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart drawer">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Drawer Scrollable Body -->
+            <div class="cart-drawer-body" id="cartDrawerBody">
+                <!-- Empty State -->
+                <div class="cart-empty-state" id="cartEmptyState">
+                    <div class="cart-empty-icon" aria-hidden="true">
+                        <span class="empty-emoji">🛍️</span>
+                    </div>
+                    <h3 class="cart-empty-title">Your Bag is Empty</h3>
+                    <p class="cart-empty-desc">Explore our artisan menu to add handcrafted specialty brews and freshly baked delicacies.</p>
+                    <a href="#menu" class="btn btn-accent cart-explore-btn" id="cartExploreBtn">Explore Our Menu</a>
+                </div>
+
+                <!-- Cart Items List Container -->
+                <div class="cart-items-list" id="cartItemsList" role="list" aria-label="Shopping cart items">
+                    <!-- Dynamic cart items rendered via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Drawer Footer (Subtotal & Actions) -->
+            <div class="cart-drawer-footer" id="cartDrawerFooter">
+                <div class="cart-subtotal-row">
+                    <span class="cart-subtotal-label">Subtotal</span>
+                    <span class="cart-subtotal-amount" id="cartSubtotalAmount">₹0</span>
+                </div>
+                <p class="cart-tax-notice">Taxes &amp; handcrafted packaging included in unit pricing.</p>
+                <div class="cart-footer-actions">
+                    <button type="button" class="btn btn-accent cart-checkout-btn" id="cartCheckoutBtn">Proceed to Checkout</button>
+                    <button type="button" class="btn btn-outline cart-continue-btn" id="cartContinueShoppingBtn">Continue Browsing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         DEMO CHECKOUT MODAL (Phase 4)
+         ====================================================================== -->
+    <div class="checkout-backdrop" id="checkoutBackdrop" aria-hidden="true"></div>
+
+    <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutModalTitle" aria-hidden="true" tabindex="-1">
+        <div class="checkout-dialog">
+            <div class="checkout-content">
+                <!-- Modal Header -->
+                <div class="checkout-header">
+                    <div class="checkout-header-info">
+                        <span class="checkout-eyebrow">The Coffee Atelier</span>
+                        <h2 class="checkout-title" id="checkoutModalTitle">Checkout &amp; Order Summary</h2>
+                    </div>
+                    <button type="button" class="checkout-close-btn" id="checkoutCloseBtn" aria-label="Close checkout modal">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Modal Body: Form & Live Order Summary -->
+                <div class="checkout-body">
+                    <form class="checkout-form" id="checkoutForm" novalidate>
+                        <!-- Left Column: Customer Details -->
+                        <div class="checkout-form-section">
+                            <h3 class="checkout-section-heading">Customer Information</h3>
+
+                            <!-- Name Field -->
+                            <div class="form-group">
+                                <label for="checkoutName" class="form-label">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                                <input type="text" id="checkoutName" name="name" class="form-input" placeholder="e.g. Arun Kumar" autocomplete="name" required aria-describedby="checkoutNameError">
+                                <span class="form-error" id="checkoutNameError" role="alert" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Mobile Phone Field -->
+                            <div class="form-group">
+                                <label for="checkoutPhone" class="form-label">Mobile Number <span class="required-star" aria-hidden="true">*</span></label>
+                                <div class="phone-input-wrap">
+                                    <span class="phone-prefix" aria-hidden="true">+91</span>
+                                    <input type="tel" id="checkoutPhone" name="phone" class="form-input phone-input" placeholder="9876543210" maxlength="10" autocomplete="tel" required aria-describedby="checkoutPhoneError">
+                                </div>
+                                <span class="form-error" id="checkoutPhoneError" role="alert" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Fulfillment Preference Field -->
+                            <div class="form-group">
+                                <fieldset class="fulfillment-fieldset">
+                                    <legend class="form-label">Fulfillment Preference <span class="required-star" aria-hidden="true">*</span></legend>
+                                    <div class="fulfillment-grid">
+                                        <!-- Option 1: Café Dine-In -->
+                                        <label class="fulfillment-card is-selected" for="fulfillDineIn">
+                                            <input type="radio" id="fulfillDineIn" name="fulfillment" value="dine-in" class="fulfillment-radio" checked>
+                                            <div class="fulfillment-text">
+                                                <span class="fulfillment-name">Café Dine-In</span>
+                                                <span class="fulfillment-desc">Served fresh to your table</span>
+                                            </div>
+                                        </label>
+
+                                        <!-- Option 2: Counter Pickup -->
+                                        <label class="fulfillment-card" for="fulfillPickup">
+                                            <input type="radio" id="fulfillPickup" name="fulfillment" value="counter-pickup" class="fulfillment-radio">
+                                            <div class="fulfillment-text">
+                                                <span class="fulfillment-name">Counter Pickup</span>
+                                                <span class="fulfillment-desc">Packaged at the barista bar</span>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <span class="form-error" id="checkoutFulfillmentError" role="alert" aria-live="polite"></span>
+                                </fieldset>
+                            </div>
+
+                            <!-- Demo Notice -->
+                            <div class="checkout-demo-notice">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                </svg>
+                                <p>Note: This checkout is a demonstration only. No real payment is processed, and no real order or pickup is guaranteed.</p>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Order Summary Box -->
+                        <div class="checkout-summary-box">
+                            <h3 class="checkout-section-heading">Order Summary (<span id="checkoutSummaryCount">0</span> items)</h3>
+                            <div class="checkout-summary-items" id="checkoutSummaryItems" role="list" aria-label="Order summary items">
+                                <!-- Dynamically generated cart summary items -->
+                            </div>
+                            <div class="checkout-summary-totals">
+                                <div class="summary-row">
+                                    <span class="summary-label">Items Subtotal</span>
+                                    <span class="summary-val" id="checkoutSummarySubtotal">₹0</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span class="summary-label">Packaging &amp; Café Taxes</span>
+                                    <span class="summary-val summary-val-free">Included</span>
+                                </div>
+                                <div class="summary-divider"></div>
+                                <div class="summary-row summary-row-total">
+                                    <span class="summary-label-total">Final Total</span>
+                                    <span class="summary-val-total" id="checkoutSummaryTotal">₹0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="checkout-footer">
+                    <button type="button" class="btn btn-outline checkout-back-btn" id="checkoutBackBtn">Back to Bag</button>
+                    <button type="button" class="btn btn-accent checkout-submit-btn" id="checkoutSubmitBtn">Place Demo Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         ORDER CONFIRMATION RECEIPT MODAL (Phase 4)
+         ====================================================================== -->
+    <div class="confirmation-backdrop" id="confirmationBackdrop" aria-hidden="true"></div>
+
+    <div class="confirmation-modal" id="confirmationModal" role="dialog" aria-modal="true" aria-labelledby="confirmationModalTitle" aria-hidden="true" tabindex="-1">
+        <div class="confirmation-dialog">
+            <div class="confirmation-content">
+                <!-- Success Header -->
+                <div class="confirmation-header">
+                    <div class="confirmation-success-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <span class="confirmation-eyebrow">Demo Order Placed</span>
+                    <h2 class="confirmation-title" id="confirmationModalTitle">Order Confirmation</h2>
+                    <div class="confirmation-order-id-wrap">
+                        <span class="order-id-label">Order Reference:</span>
+                        <span class="order-id-badge" id="confirmationOrderId">TDB-2026-0000</span>
+                    </div>
+                </div>
+
+                <!-- Confirmation Body -->
+                <div class="confirmation-body">
+                    <!-- Mandatory Demo Advisory Banner -->
+                    <div class="confirmation-disclaimer-banner">
+                        <div class="disclaimer-icon-wrap" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </div>
+                        <div class="disclaimer-text">
+                            <strong>Demonstration Order Only</strong>
+                            <p>This is an illustrative demonstration order for The Daily Brew. No real payment has been processed, and no real order or pickup is guaranteed.</p>
+                        </div>
+                    </div>
+
+                    <!-- Customer & Fulfillment Card -->
+                    <div class="confirmation-meta-card">
+                        <div class="meta-row">
+                            <span class="meta-label">Customer Name</span>
+                            <span class="meta-val" id="confirmationCustomerName">—</span>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-label">Mobile Number</span>
+                            <span class="meta-val" id="confirmationCustomerPhone">—</span>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-label">Fulfillment Style</span>
+                            <span class="meta-badge" id="confirmationFulfillment">Café Dine-In</span>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-label">Order Timestamp</span>
+                            <span class="meta-val" id="confirmationOrderTime">—</span>
+                        </div>
+                    </div>
+
+                    <!-- Itemized Receipt -->
+                    <div class="confirmation-receipt-card">
+                        <h3 class="receipt-heading">Itemized Receipt</h3>
+                        <div class="receipt-items-list" id="confirmationReceiptItems" role="list" aria-label="Confirmed order items">
+                            <!-- Dynamically generated receipt rows -->
+                        </div>
+                        <div class="receipt-divider"></div>
+                        <div class="receipt-total-row">
+                            <span class="receipt-total-label">Total Amount (Demo)</span>
+                            <span class="receipt-total-val" id="confirmationOrderTotal">₹0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Confirmation Footer -->
+                <div class="confirmation-footer">
+                    <button type="button" class="btn btn-outline confirmation-close-btn" id="confirmationCloseBtn">Close Receipt</button>
+                    <button type="button" class="btn btn-accent confirmation-new-order-btn" id="confirmationNewOrderBtn">Start New Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
